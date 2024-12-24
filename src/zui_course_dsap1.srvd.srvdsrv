@@ -1,0 +1,7 @@
+@EndUserText.label: 'Service Definition for ZC_COURSE_OSAP1'
+define service ZUI_COURSE_DSAP1 {
+  expose ZC_COURSE_DSAP1   as Course;
+  expose ZC_SCHEDULE_DSAP1 as Schedule;
+  expose I_Country         as Country;
+  expose I_Currency        as Currency;
+}
